@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f6b7d2" />
+  <title>LUNELLE BEAUTY — Dream Dial 2000</title>
+  <meta name="description" content="A mysterious beauty signal is calling from another little universe." />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="experience" aria-live="polite">
+    <div class="grain" aria-hidden="true"></div>
+    <div class="sparkles" aria-hidden="true"></div>
+    <div class="cursor-sparkles" aria-hidden="true"></div>
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="Lunelle Beauty home">LUNELLE<span>♡</span></a>
+      <p class="system-label">DREAM DIAL <b>2000</b></p>
+      <button id="soundToggle" class="sound-toggle" type="button" aria-pressed="false">♪ OFF</button>
+    </header>
+
+    <section class="scene" aria-label="Incoming call from Lunelle">
+      <div class="orb orb-one"></div><div class="orb orb-two"></div>
+      <div class="desk-glow"></div>
+      <div class="deco sticker star-sticker">✦</div>
+      <div class="deco sticker heart-sticker">♡</div>
+      <div class="deco butterfly">🦋</div>
+      <div class="deco compact" aria-hidden="true"><i></i><span>♡</span></div>
+      <div class="deco gloss" aria-hidden="true"><i></i></div>
+      <div class="deco cd" aria-hidden="true"><i></i></div>
+      <div class="note">call me<br><em>when you dream</em> ♡</div>
+      <div class="rhinestone-line" aria-hidden="true">✦ · ✦ · ♡ · ✦ · ✦</div>
+
+      <article class="call-card" id="callCard">
+        <span class="call-led"></span>
+        <p>INCOMING CALL...</p>
+        <strong>LUNELLE <i>♡</i></strong>
+      </article>
+
+      <div class="phone-wrap" id="phoneWrap">
+        <div class="phone-shadow"></div>
+        <div class="phone" id="phone" role="img" aria-label="A silver and baby pink flip phone">
+          <div class="phone-antenna"></div>
+          <div class="phone-top">
+            <div class="camera"></div><div class="speaker"></div>
+            <div class="screen" id="screen"><span>01:11</span><b>✧</b></div>
+          </div>
+          <div class="hinge"><i></i><i></i><i></i></div>
+          <div class="phone-bottom"><div class="nav">♡</div><div class="keypad"><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i><i>6</i><i>7</i><i>8</i><i>9</i></div><div class="charm">♡</div></div>
+        </div>
+      </div>
+
+      <div class="actions" id="actions">
+        <button class="y2k-button answer" id="answerButton" type="button">ANSWER <span>♡</span></button>
+        <button class="y2k-button ignore" id="ignoreButton" type="button">IGNORE</button>
+      </div>
+      <p class="hint" id="hint">tap into your little universe</p>
+    </section>
+
+    <section class="phone-interface" id="phoneInterface" aria-hidden="true">
+      <div class="interface-shell">
+        <div class="interface-top"><span>✦ connected to lunelle</span><button id="closeInterface" type="button" aria-label="Return to call">×</button></div>
+        <div class="interface-content" id="interfaceContent">
+          <p class="eyebrow">LUNELLE BEAUTY</p><h1>DREAM DIAL<br><em>2000</em></h1>
+          <p class="question">What does your beauty signal look like?</p>
+          <div class="connection" id="connection"><small>CONNECTING...</small><div class="blocks"><i></i><i></i><i></i><i></i><i class="empty"></i><i class="empty"></i><i class="empty"></i><i class="empty"></i></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
