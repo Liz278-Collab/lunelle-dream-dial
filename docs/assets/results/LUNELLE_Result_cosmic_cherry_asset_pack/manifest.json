@@ -1,0 +1,16 @@
+{
+  "persona": "COSMIC CHERRY",
+  "source_size": [
+    1122,
+    1402
+  ],
+  "authoritative_master": "cosmic-cherry-master.jpg",
+  "note": "The uploaded result image is a flattened JPEG. Reference crops preserve the approved artwork but are not transparent alpha production assets. For implementation, use the master image as the exact visual source and overlay only elements that need interaction/animation.",
+  "reference_assets": [
+    "window-title-reference.jpg",
+    "character-card-reference.jpg",
+    "result-panel-reference.jpg",
+    "save-button-reference.jpg",
+    "taskbar-reference.jpg"
+  ]
+}

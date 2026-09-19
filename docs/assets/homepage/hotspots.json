@@ -1,0 +1,56 @@
+{
+  "source_size": {
+    "width": 1060,
+    "height": 1484
+  },
+  "recommended_rendering": {
+    "mode": "single-master-artwork-with-transparent-interaction-hotspots",
+    "object_fit": "contain",
+    "aspect_ratio": "1060/1484",
+    "note": "Use homepage-master.jpg as the visible page. Do not redraw the artwork in CSS."
+  },
+  "hotspots": {
+    "answer": {
+      "left": 0.115,
+      "top": 0.824,
+      "width": 0.455,
+      "height": 0.067
+    },
+    "ignore": {
+      "left": 0.594,
+      "top": 0.824,
+      "width": 0.282,
+      "height": 0.067
+    },
+    "my_lunelle": {
+      "left": 0.045,
+      "top": 0.067,
+      "width": 0.12,
+      "height": 0.09
+    },
+    "dreams": {
+      "left": 0.045,
+      "top": 0.18,
+      "width": 0.12,
+      "height": 0.09
+    },
+    "beauty": {
+      "left": 0.045,
+      "top": 0.285,
+      "width": 0.12,
+      "height": 0.09
+    },
+    "music": {
+      "left": 0.045,
+      "top": 0.39,
+      "width": 0.12,
+      "height": 0.09
+    },
+    "about_me": {
+      "left": 0.045,
+      "top": 0.49,
+      "width": 0.12,
+      "height": 0.09
+    }
+  }
+}

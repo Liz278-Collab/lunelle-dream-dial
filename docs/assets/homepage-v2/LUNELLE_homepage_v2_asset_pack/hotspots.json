@@ -1,0 +1,25 @@
+{
+  "canvas": {
+    "width": 1060,
+    "height": 1484
+  },
+  "hotspots": {
+    "answer": {
+      "x": 0.217,
+      "y": 0.858,
+      "w": 0.321,
+      "h": 0.041
+    },
+    "ignore": {
+      "x": 0.551,
+      "y": 0.858,
+      "w": 0.222,
+      "h": 0.041
+    }
+  },
+  "assets": {
+    "master": "homepage-master-v2.jpg",
+    "phone_source": "phone-source.jpg"
+  },
+  "notes": "Use master as locked visual. phone-source is provided to create an independent transparent phone layer for incoming-call vibration. Recreate CTA buttons as independent HTML/CSS overlays matching reference crops."
+}

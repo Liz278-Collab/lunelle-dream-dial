@@ -1,0 +1,12 @@
+{
+  "page": "02",
+  "source_size": [
+    1069,
+    1472
+  ],
+  "master": "page02-master.jpg",
+  "interactive": [
+    "START GAME two-layer overlay",
+    "animated progress-bar overlay"
+  ]
+}

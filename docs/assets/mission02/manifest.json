@@ -1,0 +1,33 @@
+{
+  "page": "Mission 02",
+  "source_size": [
+    1083,
+    1427
+  ],
+  "authoritative_visual": "mission02-master.jpg",
+  "implementation_rule": "Keep master as the visible base. Reference JPG crops are for positioning only, not transparent layers.",
+  "interactive_groups": {
+    "COLOR": [
+      "CHERRY",
+      "BABY PINK",
+      "ICY BLUE"
+    ],
+    "FINISH": [
+      "GLOSS",
+      "GLITTER",
+      "PEARL"
+    ],
+    "MOOD": [
+      "ANGEL",
+      "DREAM",
+      "REBEL"
+    ]
+  },
+  "recommended_live_overlays": [
+    "9 transparent touch hotspots",
+    "selected-state pixel outline/check",
+    "tap sparkles",
+    "compact completion sparkle/glow",
+    "mission progress state"
+  ]
+}

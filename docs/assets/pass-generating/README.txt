@@ -1,0 +1,1 @@
+Use pass-generating-master.jpg as the exact unchanged base. printed-ticket.png is the supplied transparent animated ticket. Reference crops are for alignment only. Keep 80% static; sweep a clipped shine over the pink fill; slowly reveal the ticket from the printer slot over about 10–12 seconds.

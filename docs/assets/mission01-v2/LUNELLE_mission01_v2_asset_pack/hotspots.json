@@ -1,0 +1,38 @@
+{
+  "canvas": {
+    "width": 1096,
+    "height": 1436
+  },
+  "dynamic_ui": {
+    "timer_value": {
+      "x": 0.88,
+      "y": 0.21,
+      "w": 0.075,
+      "h": 0.045,
+      "initial": "00:15"
+    },
+    "score_value": {
+      "x": 0.89,
+      "y": 0.375,
+      "w": 0.065,
+      "h": 0.045,
+      "initial": "000"
+    }
+  },
+  "gameplay": {
+    "spawn_area": {
+      "x": 0.18,
+      "y": 0.3,
+      "w": 0.62,
+      "h": 0.45
+    },
+    "bag_start": {
+      "x": 0.5,
+      "y": 0.78
+    },
+    "bag_horizontal_bounds": {
+      "left": 0.16,
+      "right": 0.84
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source_size": [
+    1096,
+    1436
+  ],
+  "drop_sheet_size": [
+    1536,
+    512
+  ],
+  "coordinate_system": "normalized 0..1 relative to mission01-master.jpg",
+  "gameplay": {
+    "bag_center": [
+      0.5,
+      0.755
+    ],
+    "bag_drag_zone": {
+      "x_min": 0.08,
+      "x_max": 0.92,
+      "y": 0.755
+    },
+    "playfield": {
+      "x_min": 0.05,
+      "x_max": 0.95,
+      "y_min": 0.28,
+      "y_max": 0.82
+    },
+    "timer_region": [
+      0.78,
+      0.15,
+      0.98,
+      0.25
+    ],
+    "score_region": [
+      0.78,
+      0.26,
+      0.98,
+      0.36
+    ]
+  },
+  "notes": "Drop item source contains six objects on a white background. Codex should isolate each object into transparent PNG/WebP assets before gameplay."
+}
