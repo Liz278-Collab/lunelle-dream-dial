@@ -1,0 +1,14 @@
+{
+  "page": "Pass generating",
+  "source_size": [
+    1105,
+    1424
+  ],
+  "base": "pass-generating-master.jpg",
+  "animated_asset": "printed-ticket.png",
+  "rules": [
+    "80% remains static",
+    "shine sweeps across pink fill",
+    "ticket prints over about 10-12 seconds"
+  ]
+}

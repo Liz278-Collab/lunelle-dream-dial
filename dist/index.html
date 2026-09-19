@@ -1,74 +1,9 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#f6b7d2" />
-  <title>LUNELLE BEAUTY — Dream Dial 2000</title>
-  <meta name="description" content="A mysterious beauty signal is calling from another little universe." />
-  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <main class="experience" aria-live="polite">
-    <div class="grain" aria-hidden="true"></div>
-    <div class="sparkles" aria-hidden="true"></div>
-    <div class="cursor-sparkles" aria-hidden="true"></div>
-    <header class="topbar">
-      <a class="brand" href="#" aria-label="Lunelle Beauty home">LUNELLE<span>♡</span></a>
-      <p class="system-label">DREAM DIAL <b>2000</b></p>
-      <button id="soundToggle" class="sound-toggle" type="button" aria-pressed="false">♪ OFF</button>
-    </header>
-
-    <section class="scene" aria-label="Incoming call from Lunelle">
-      <div class="orb orb-one"></div><div class="orb orb-two"></div>
-      <div class="desk-glow"></div>
-      <div class="deco sticker star-sticker">✦</div>
-      <div class="deco sticker heart-sticker">♡</div>
-      <div class="deco butterfly">🦋</div>
-      <div class="deco compact" aria-hidden="true"><i></i><span>♡</span></div>
-      <div class="deco gloss" aria-hidden="true"><i></i></div>
-      <div class="deco cd" aria-hidden="true"><i></i></div>
-      <div class="note">call me<br><em>when you dream</em> ♡</div>
-      <div class="rhinestone-line" aria-hidden="true">✦ · ✦ · ♡ · ✦ · ✦</div>
-
-      <article class="call-card" id="callCard">
-        <span class="call-led"></span>
-        <p>INCOMING CALL...</p>
-        <strong>LUNELLE <i>♡</i></strong>
-      </article>
-
-      <div class="phone-wrap" id="phoneWrap">
-        <div class="phone-shadow"></div>
-        <div class="phone" id="phone" role="img" aria-label="A silver and baby pink flip phone">
-          <div class="phone-antenna"></div>
-          <div class="phone-top">
-            <div class="camera"></div><div class="speaker"></div>
-            <div class="screen" id="screen"><span>01:11</span><b>✧</b></div>
-          </div>
-          <div class="hinge"><i></i><i></i><i></i></div>
-          <div class="phone-bottom"><div class="nav">♡</div><div class="keypad"><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i><i>6</i><i>7</i><i>8</i><i>9</i></div><div class="charm">♡</div></div>
-        </div>
-      </div>
-
-      <div class="actions" id="actions">
-        <button class="y2k-button answer" id="answerButton" type="button">ANSWER <span>♡</span></button>
-        <button class="y2k-button ignore" id="ignoreButton" type="button">IGNORE</button>
-      </div>
-      <p class="hint" id="hint">tap into your little universe</p>
-    </section>
-
-    <section class="phone-interface" id="phoneInterface" aria-hidden="true">
-      <div class="interface-shell">
-        <div class="interface-top"><span>✦ connected to lunelle</span><button id="closeInterface" type="button" aria-label="Return to call">×</button></div>
-        <div class="interface-content" id="interfaceContent">
-          <p class="eyebrow">LUNELLE BEAUTY</p><h1>DREAM DIAL<br><em>2000</em></h1>
-          <p class="question">What does your beauty signal look like?</p>
-          <div class="connection" id="connection"><small>CONNECTING...</small><div class="blocks"><i></i><i></i><i></i><i></i><i class="empty"></i><i class="empty"></i><i class="empty"></i><i class="empty"></i></div></div>
-        </div>
-      </div>
-    </section>
-  </main>
-  <script src="app.js"></script>
-</body>
-</html>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/><meta name="theme-color" content="#0754e8"/><title>LUNELLE BEAUTY — Dream Dial 2000</title><meta name="description" content="A Y2K beauty game prototype from Lunelle."/><link rel="icon" type="image/svg+xml" href="favicon.svg"/><link rel="stylesheet" href="styles.css"/></head>
+<body><main class="game-shell" id="gameShell" aria-live="polite"><div class="sky-decoration" aria-hidden="true"><i class="cloud c1"></i><i class="cloud c2"></i><i class="pixel-star s1">✦</i><i class="pixel-star s2">✦</i><i class="pixel-star s3">+</i></div>
+<section class="screen is-active" data-screen="intro" aria-label="Lunelle incoming call"><header class="game-head brand-head"><span class="brand">LUNELLE<span>♡</span></span><small>DREAM DIAL 2000</small></header><div class="intro-center"><div class="toy-phone ringing" id="toyPhone" aria-label="Incoming call from Lunelle"><i class="antenna"></i><i class="phone-shine"></i><div class="phone-screen"><small>▮▮▮ &nbsp; ✉ &nbsp; ▰</small><b>♡</b><strong>LUNELLE</strong><em>INCOMING CALL...</em><span>MENU &nbsp; ♥ &nbsp; ANSWER</span></div><div class="phone-controls"><i></i><i class="heart-key">♥</i><i></i><div class="keypad"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>*</span><span>0</span><span>#</span></div></div></div><p class="micro-copy">INCOMING SIGNAL · BEAUTY FREQUENCY 2000</p><button class="toy-button hot" id="answerCall" type="button">♡ ANSWER THE CALL ♡</button></div><div class="connect-card" id="connectCard" hidden><span class="tiny-label">CONNECTED TO LUNELLE</span><h1>YOUR BEAUTY SIGNAL<br>HAS BEEN LOST.</h1><p>Complete 3 missions to find your LUNELLE type ♡</p><button class="toy-button hot" data-go="mission1" type="button">START GAME</button></div></section>
+<section class="screen" data-screen="mission1" aria-label="Mission 01 Catch Your Signal"><header class="game-head"><button class="back-button" data-go="intro" aria-label="Back to intro">‹</button><div class="progress" aria-label="Mission progress"><span class="active">1</span><i></i><span>2</span><i></i><span>3</span></div><span class="head-dot">●</span></header><div class="mission-copy"><h1>01 · CATCH YOUR SIGNAL</h1><p>Catch what feels like you.</p></div><div class="score-row"><span>TIME <b>00:15</b></span><span>SIGNAL <b>000</b></span></div><div class="beauty-bag hero-toy" aria-label="Pink and aqua beauty bag"><i class="bag-handle"></i><div class="bag-window">LUNELLE<br><small>BEAUTY KIT</small></div><i class="bag-clasp"></i></div><div class="collectibles" aria-label="Collectible placeholders"><span>CD</span><span>GLOSS</span><span>CHERRY</span><span>STAR</span><span>HEART</span><span>BOW</span></div><p class="placeholder-note">COLLECTIBLE PLAYFIELD · VISUAL PROTOTYPE</p><button class="toy-button aqua bottom-cta" data-go="mission2" type="button">NEXT MISSION</button></section>
+<section class="screen" data-screen="mission2" aria-label="Mission 02 Mix Your Beauty"><header class="game-head"><button class="back-button" data-go="mission1" aria-label="Back to Mission 01">‹</button><div class="progress"><span class="done">✓</span><i></i><span class="active">2</span><i></i><span>3</span></div><span class="head-dot">●</span></header><div class="mission-copy"><h1>02 · MIX YOUR BEAUTY</h1><p>Pick your color, finish, and mood.</p></div><div class="beauty-mixer hero-toy" aria-label="Lunelle beauty mixer"><i class="mixer-top"></i><div class="mixer-window"><b>♡</b><span>MIX IT UP!</span></div><i class="mixer-knob"></i></div><div class="mix-options" id="mixOptions"><fieldset><legend>COLOR</legend><button data-group="color">CHERRY</button><button data-group="color">BABY PINK</button><button data-group="color">ICY BLUE</button></fieldset><fieldset><legend>FINISH</legend><button data-group="finish">GLOSS</button><button data-group="finish">GLITTER</button><button data-group="finish">PEARL</button></fieldset><fieldset><legend>MOOD</legend><button data-group="mood">ANGEL</button><button data-group="mood">DREAM</button><button data-group="mood">REBEL</button></fieldset></div><button class="toy-button hot bottom-cta" id="mixNext" data-go="mission3" disabled type="button">NEXT MISSION</button></section>
+<section class="screen" data-screen="mission3" aria-label="Mission 03 See Through The Gloss"><header class="game-head"><button class="back-button" data-go="mission2" aria-label="Back to Mission 02">‹</button><div class="progress"><span class="done">✓</span><i></i><span class="done">✓</span><i></i><span class="active">3</span></div><span class="head-dot">●</span></header><div class="mission-copy"><h1>03 · SEE THROUGH THE GLOSS</h1><p>Move the mirror. Find the hidden signal.</p></div><div class="signal-count">SIGNAL FOUND <b>0 / 3</b></div><div class="palms" aria-hidden="true"><i></i><i></i><i></i></div><div class="heart-mirror hero-toy" id="heartMirror" aria-label="Movable heart compact mirror"><div class="mirror-glass"><span>✦</span></div><i></i></div><div class="hidden-signal one">L</div><div class="hidden-signal two">♡</div><div class="hidden-signal three">7</div><button class="toy-button aqua bottom-cta" data-go="result" type="button">REVEAL MY SIGNAL</button></section>
+<section class="screen result-screen" data-screen="result" aria-label="Your Beauty Signal result"><header class="game-head"><span class="brand">LUNELLE<span>♡</span></span><small>BEAUTY ID</small></header><div class="result-card"><span class="tiny-label">YOUR BEAUTY SIGNAL</span><h1>COSMIC<br>CHERRY</h1><div class="shade-orb"></div><p class="formula">CHERRY + GLOSS + DREAM</p><div class="signal-bars"><span><i style="width:88%"></i>GLOW</span><span><i style="width:72%"></i>DRAMA</span><span><i style="width:94%"></i>DREAM</span></div><small>SHADE 07 · CALL ME CHERRY</small></div><div class="result-actions"><button class="toy-button aqua" type="button">SAVE MY BEAUTY ID</button></div></section>
+<aside class="dev-nav" aria-label="Development screen navigation"><span>DEV</span><button data-go="intro">0</button><button data-go="mission1">1</button><button data-go="mission2">2</button><button data-go="mission3">3</button><button data-go="result">R</button></aside><div class="modal" id="bonusModal" hidden role="dialog" aria-modal="true" aria-labelledby="bonusTitle"><div class="modal-window"><div class="popup-title">♡ LUNELLE.EXE <i>×</i></div><h2 id="bonusTitle">YOUR LOOK IS READY! ♡</h2><p>你的专属形象生成好啦！</p><button class="toy-button hot" id="getPass" type="button">MEET MY LUNELLE SELF ♡</button><button class="text-button" id="closeBonus" type="button">NOT NOW</button></div></div></main><script src="app.js"></script></body></html>

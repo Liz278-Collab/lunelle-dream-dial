@@ -1,0 +1,13 @@
+{
+  "page": "Mission 03",
+  "source_size": [
+    1124,
+    1399
+  ],
+  "master": "mission03-master.jpg",
+  "production_asset": "heart-mirror.png",
+  "goal": "Find exactly 3 hidden beauty signals with draggable mirror.",
+  "implementation_rule": "Keep master as visible base; use heart-mirror.png as draggable overlay; live found counter overlays the baked found panel.",
+  "candidate_hidden_points": 8,
+  "points_per_run": 3
+}

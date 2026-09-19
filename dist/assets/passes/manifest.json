@@ -1,0 +1,65 @@
+{
+  "note": "Originals are flattened JPEGs. Masters are authoritative. Crops are reference layers, not true-alpha production assets.",
+  "personas": {
+    "pink_pop": {
+      "master": "pink_pop/pink_pop-master.jpg",
+      "size": [
+        1144,
+        1375
+      ],
+      "reference_crops": [
+        "header-reference.jpg",
+        "pass-card-reference.jpg",
+        "info-panel-reference.jpg",
+        "save-button-reference.jpg",
+        "location-button-reference.jpg",
+        "footer-reference.jpg"
+      ]
+    },
+    "icy_blue": {
+      "master": "icy_blue/icy_blue-master.jpg",
+      "size": [
+        1144,
+        1375
+      ],
+      "reference_crops": [
+        "header-reference.jpg",
+        "pass-card-reference.jpg",
+        "info-panel-reference.jpg",
+        "save-button-reference.jpg",
+        "location-button-reference.jpg",
+        "footer-reference.jpg"
+      ]
+    },
+    "angel_milk": {
+      "master": "angel_milk/angel_milk-master.jpg",
+      "size": [
+        1144,
+        1375
+      ],
+      "reference_crops": [
+        "header-reference.jpg",
+        "pass-card-reference.jpg",
+        "info-panel-reference.jpg",
+        "save-button-reference.jpg",
+        "location-button-reference.jpg",
+        "footer-reference.jpg"
+      ]
+    },
+    "cosmic_cherry": {
+      "master": "cosmic_cherry/cosmic_cherry-master.jpg",
+      "size": [
+        1145,
+        1374
+      ],
+      "reference_crops": [
+        "header-reference.jpg",
+        "pass-card-reference.jpg",
+        "info-panel-reference.jpg",
+        "save-button-reference.jpg",
+        "location-button-reference.jpg",
+        "footer-reference.jpg"
+      ]
+    }
+  }
+}
